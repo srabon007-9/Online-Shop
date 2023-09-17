@@ -1,0 +1,331 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Apply a background color and basic styles to the body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the main content area */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the product container */
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* By default, one column */
+    grid-gap: 20px;
+}
+
+/* Style the product card */
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h2 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.product p {
+    margin: 10px 0;
+}
+
+.product button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product button:hover {
+    background-color: #555;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Responsive layout adjustments */
+@media screen and (min-width: 768px) {
+    /* Two columns on screens wider than 768px */
+    .product-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    /* Four columns on screens wider than 1024px */
+    .product-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+
+/* Style the navigation bar */
+nav {
+    text-align: right;
+}
+
+
+
+/* Style the navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.left-menu,
+.right-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.left-menu li,
+.right-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.left-menu a,
+.right-menu a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and basic styles to the body */
+body {
+    
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+header h1 {
+    font-size: 2rem;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 0;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
+}
+
+.menu a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+/* Apply a background color and basic styles to the body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+
+/* Style the navigation bar */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 0;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
+}
+
+.menu a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+/* Style the authentication buttons */
+.auth-buttons {
+    margin-right: 0;
+}
+
+.auth-buttons a {
+    background-color: #555;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.auth-buttons a:hover {
+    background-color: #333;
+}
+
+.product img {
+    width: 100%;
+    height: 200px; /* Set a fixed height for consistency */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+/* Style the product card */
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    height: 200px; /* Set a fixed height for consistency */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+/* Style the product card */
+.product {
+    /* ... (existing styles) */
+    text-align: left; /* Align text to the left within the product card */
+}
+
+.product h2, .product p {
+    margin: 0; /* Remove default margins for consistent alignment */
+}
+
+.product h2 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.product p {
+    margin-top: 5px; /* Adjust spacing between elements */
+}
+.product button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem; /* Adjust font size */
+    border-radius: 4px; /* Add border radius for a more button-like appearance */
+    display: block; /* Make the button a block element for consistent alignment */
+    margin: 0 auto; /* Center the button horizontally */
+}
+
+.product button:hover {
+    background-color: #555;
+}
+@media screen and (max-width: 768px) {
+    /* Adjust product card styles for smaller screens */
+    .product {
+        padding: 10px;
+    }
+    .product h2 {
+        font-size: 1rem;
+    }
+    .product p {
+        font-size: 0.9rem;
+    }
+}
