@@ -329,3 +329,10 @@ nav {
         font-size: 0.9rem;
     }
 }
+.auth-buttons a {
+    /* Existing styles */
+
+    /* Add the following properties for responsiveness */
+    display: inline-block; /* Display the button as a block element */
+    width: auto; /* Allow the button's width to adjust based on content */
+}
